@@ -1,0 +1,48 @@
+{
+  "num_users": 10,
+  "selected_users": [
+    "000",
+    "001",
+    "005",
+    "006",
+    "009",
+    "011",
+    "014",
+    "016",
+    "019",
+    "025"
+  ],
+  "preprocessing": {
+    "total_original_places": 1752364,
+    "total_after_duplicate_removal": 4087,
+    "total_duplicates_removed": 1748277,
+    "sequence_length": 50,
+    "total_sequences": 149,
+    "training_sequences": 119,
+    "test_sequences": 30
+  },
+  "model": {
+    "num_nodes": 303,
+    "node_feature_dim": 6,
+    "hidden_dim": 200,
+    "architecture": "GCN + LSTM"
+  },
+  "accuracy": {
+    "value": 0.5047619047619047,
+    "correct": 742,
+    "total": 1470
+  },
+  "precision_recall": {
+    "precision": 0.43888605510147694,
+    "recall": 0.5047619047619047
+  },
+  "top_k_accuracy": {
+    "top_1_accuracy": 0.5047619047619047,
+    "top_3_accuracy": 0.6918367346938775,
+    "top_5_accuracy": 0.7870748299319728
+  },
+  "mpd_distance": {
+    "mpd_distance_meters": 32168.61428553922,
+    "valid_calculations": 1397
+  }
+}
