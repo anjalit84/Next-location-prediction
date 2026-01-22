@@ -1,0 +1,46 @@
+{
+  "num_users": 10,
+  "selected_users": [
+    "000",
+    "001",
+    "005",
+    "006",
+    "009",
+    "011",
+    "014",
+    "016",
+    "019",
+    "025"
+  ],
+  "preprocessing": {
+    "total_original_places": 1752364,
+    "total_after_duplicate_removal": 4087,
+    "total_duplicates_removed": 1748277,
+    "sequence_length": 50,
+    "total_sequences": 149,
+    "training_sequences": 119,
+    "test_sequences": 30
+  },
+  "model": {
+    "unique_states": 303,
+    "hidden_states": 50
+  },
+  "accuracy": {
+    "value": 0.6530612244897959,
+    "correct": 32,
+    "total": 49
+  },
+  "precision_recall": {
+    "precision": 0.6050814265099979,
+    "recall": 0.6530612244897959
+  },
+  "top_k_accuracy": {
+    "top_1_accuracy": 0.6530612244897959,
+    "top_3_accuracy": 0.8979591836734694,
+    "top_5_accuracy": 0.9183673469387755
+  },
+  "mpd_distance": {
+    "mpd_distance_meters": 4364.404451428954,
+    "valid_calculations": 49
+  }
+}
